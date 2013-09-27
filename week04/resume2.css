@@ -1,0 +1,103 @@
+/**
+ *	Sample CSS file for the IT Lab Boot Camp
+ *	Coded by: Cary-Anne Olsen, Michael Redding
+ */
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+body h1 {
+	letter-spacing: 0.1em;
+	margin-bottom: 6px;
+}
+
+body header {
+	padding-top: 40px;
+	position: relative;
+	height: 180px;
+}
+
+body header div#header-image {
+	position: absolute;
+	z-index: 100;
+	padding-left: 20px;
+}
+
+body header div#header-image img {
+	border: 10px solid #fff;
+}
+
+body header nav {
+	background-color: #e9c8b0;
+	margin-top: 78px;
+}
+
+body header nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+body header nav ul li {
+	display: inline-block;
+}
+
+body header nav ul li a {
+	font-size: 9pt;
+
+	display: block;
+	padding: 4px 12px;
+
+	color: #6a4830;
+}
+
+body header nav ul li a:hover {
+	background: #a99180;
+}
+
+body div#contact-details {
+	width: 140px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	padding: 20px;
+	background: #7a3300;
+	color: #fff;
+	float: left;
+
+	font-size: 10pt;
+}
+
+body div#contact-details div#contact-name {
+	font-weight: bold;
+}
+
+body div#contact-details div#contact-about h1 {
+	font-size: 14pt;
+	margin-top: 24px;
+}
+
+body div#contact-details div#contact-about p {
+	margin: 0;
+}
+
+body div#contact-details a {
+	color: #ddd;
+}
+
+body div#resume-body {
+	float: right;
+	width: 720px;
+	padding-top: 20px;
+}
+
+body div#resume-body h1,
+body div#resume-body h2 {
+	margin: 0;
+}
+
+body div#resume-body div.city {
+	font-style: italic;
+}
