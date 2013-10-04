@@ -1,0 +1,189 @@
+body {
+	background-color: #DCDBD9;
+	color: #2C2C2C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 5em; 
+	padding: 1%;
+	color: white;
+}
+
+	h2 {
+		font-size: 1.3em; 
+		padding: 5px;
+		margin-top: 0;
+		margin-bottom: 0px;
+	}
+
+	h3 {
+		font-size: 1em; 
+		padding: 5px;
+		margin-top: 0;
+	}
+
+p {
+	padding: 1% 2%;
+	margin-top: 0;
+}
+
+a {
+	color: #F35151; 
+	font-family: Arial, sans-serif; 
+	font-size: 1.0em; 
+	font-weight: normal; 
+	text-decoration: none;
+}
+	a:visited {
+		color: darkblue; 
+		text-decoration: none;
+	}
+	a:active {
+		color: #666666; 
+		text-decoration: none;
+	}
+	a:hover {
+		color: grey; 
+		text-decoration: underline;
+	}
+ 
+img {
+	max-width: 100%;
+}
+
+#main {
+	position: relative;
+	margin: 24px auto;
+	width: 90%;
+	background-color: lightgray;
+	max-width: 1024px;
+	clear: both;
+}
+
+#header {
+	position: relative;
+	padding: 0.8em 1%;
+	background-color: #fff;
+}
+
+#nav {
+	position: relative;
+	background-color: lightgray;
+	width: 20%;
+	float: left;
+	height: 100%;
+}
+
+	#nav ul {
+		margin: 0;
+		padding: 0.5em;
+		list-style-type: none;
+	}
+
+	#nav li	{
+		margin: 0;
+		padding: 3%;
+	}
+
+	#nav li:first-child	{
+		padding-left: 3%;
+	}
+
+	#nav a {
+			color: grey; font-family: Arial; 
+			font-size: 1.0em; 
+			font-weight: bold; 
+			text-decoration: none;
+	}
+	#nav a:visited {
+		color: grey; 
+		text-decoration: none;
+	}
+	#nav a:active {
+		color: #666666; 
+		text-decoration: none;
+	}
+	#nav a:hover {
+		color: #F35151; 
+		text-decoration: none;
+	}
+
+#section {
+	position: relative;
+	margin: 0 auto;
+	width: 100%; 
+	background-color: #fff;
+	overflow: auto;
+	float: left;
+}
+
+#article {
+	position: relative;
+	float: left;
+	width: 57%; 
+	background-color: #fff;
+}
+
+#aside {
+	position: relative;
+	float: right;
+	width: 20%; 
+	background-color: #fff;
+	border-left: 1px solid grey;
+	min-width: 100px;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	float: left;
+	padding: 2% 2%;
+	background-color: #999;
+	width: 96%;
+}
+
+
+
+.figure {
+	position: relative;
+	margin: 10px;
+	float: right;
+	width: 30%;
+}
+
+.figcaption {
+	border: 1px solid grey;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	#section {
+		width: 100%;
+	}
+	#aside {
+		float: none; 
+		width: 90%; 
+		border: none;
+	}
+	#article {
+		width: 95%; 
+		float: none;
+	}
+	#nav {
+		width: 100%; 
+		float: none; 
+		height: 2em;
+	}
+		#nav li {
+			padding: 2%; 
+			display: inline;
+		}
+		#nav li:first-child {
+			padding-left: .5%;
+		}
+
+}
